@@ -13,3 +13,6 @@ class EmployeeManager:
         except Exception as e:
             
             return None
+    def post(self):
+        print("post method")
+        pass
